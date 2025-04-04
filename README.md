@@ -41,61 +41,82 @@ A Java-based dynamic web application for managing student records — built usin
 ---
 # Root Directory:
 
-• my-java-project/
-   - .classpath  
-   - .project  
+Web_project_02/
 
-   • .settings/
-      - org.eclipse.core.resources.prefs  
-      - org.eclipse.jdt.core.prefs  
+├── .classpath                 # Eclipse classpath file
+├── .project                   # Eclipse project metadata
+├── .gitignore                 # Git ignored files
+├── README.md                  # Project overview (if available)
 
-   • bin/ (Compiled Classes)
-      • UserDao/
-         - UserDao.class  
-         - UserDaoImpl.class  
-      • UserFactory/
-         - ConnectionFactory.class  
-         - DaoFactory.class  
-         - ServiceFactory.class  
-      • UserService/
-         - UserService.class  
-         - UserServiceImpl.class  
-      - module-info.class  
-      • softronix/
-         • in/
-            - UserController.class  
-            • entity/
-               - User.class  
 
-   • src/ (Source Code)
-      • UserDao/
-         - UserDao.java  
-         - UserDaoImpl.java  
-      • UserFactory/
-         - ConnectionFactory.java  
-         - DaoFactory.java  
-         - ServiceFactory.java  
-      • UserService/
-         - UserService.java  
-         - UserServiceImpl.java  
-      - module-info.java  
-      • softronix/
-         • in/
-            - UserController.java  
-            • entity/
-               - User.java  
+├── src/                       # Java source code
 
-   • webapp/ (Frontend Files)
-      - index.html  
-      - add.html  
-      - display.html  
-      - empty.html  
-      - failed.html  
-      - style.css  
-      - script.js  
-      - display.jsp  
+│   ├── UserDao/
+
+│   │   ├── UserDao.java
+
+│   │   └── UserDaoImpl.java
+
+│   ├── UserFactory/
+
+│   │   ├── ConnectionFactory.java
+
+│   │   ├── DaoFactory.java
+
+│   │   └── ServiceFactory.java
+│   ├── UserService/
+
+│   │   ├── UserService.java
+
+│   │   └── UserServiceImpl.java
+
+│   ├── softronix/
+
+│   │   └── in/
+
+│   │       └── UserController.java
+
+│   └── entity/
+
+│       └── User.java
+
+
+├── bin/                       # Compiled class files
+
+│   ├── UserDao/
+
+│   ├── UserFactory/
+
+│   ├── UserService/
+
+│   ├── softronix/
+
+│   │   └── in/
+
+│   └── entity/
+
+
+├── webapp/                    # Frontend (Java EE style)
+
+│   ├── index.html
+
+│   ├── add.html
+
+│   ├── display.html
+
+│   ├── empty.html
+
+│   ├── failed.html
+
+│   ├── display.jsp
+
+│   ├── style.css
+
+│   └── script.js
 
 ---
+
+
 
 # Output
 
