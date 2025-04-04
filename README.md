@@ -16,7 +16,7 @@ A Java-based dynamic web application for managing student records — built usin
 
 ---
 
-graph TD
+# graph TD
     HTMLForm[add.html / index.html] -->|Submits Form| ServletController;
 
     ServletController -->|Creates Entity| Student;
@@ -39,10 +39,7 @@ graph TD
 
 🔹 Project Structure
 ---
-Root Directory:
-
-• Web_project_01/
-___________________________________________________________________________________________________________
+# Root Directory:
 
 • my-java-project/
    - .classpath  
@@ -99,5 +96,21 @@ ________________________________________________________________________________
       - display.jsp  
 
 ---
+
+# Output
+
+
+# <img width="952" alt="image" src="https://github.com/user-attachments/assets/0e6441e6-38f1-425d-92a9-dfea0f797d3d" width="400" height="400" />
+
+
+# <img width="956" alt="image" src="https://github.com/user-attachments/assets/f17d9c1c-8c34-4668-9e92-55de69f990fd" width="400" height="400" />
+
+
+# <img width="959" alt="image" src="https://github.com/user-attachments/assets/e7716042-bb80-43ab-bbf4-f2681e709deb" width="400" height="400" />
+
+
+
+
+
 
 
