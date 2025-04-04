@@ -37,6 +37,13 @@ graph TD
     
 ---
 
+🔹 Project Structure
+Root Directory:
+
+• Web_project_01/
+
+---
+
 • my-java-project/
    - .classpath  
    - .project  
