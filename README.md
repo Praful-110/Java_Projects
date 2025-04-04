@@ -16,4 +16,25 @@ A Java-based dynamic web application for managing student records — built usin
 
 ---
 
+graph TD
+    HTMLForm[add.html / index.html] -->|Submits Form| ServletController;
+
+    ServletController -->|Creates Entity| Student;
+    ServletController -->|Calls Service| StudentService;
+
+    StudentService -->|Calls DAO Interface| StudentDao;
+    StudentDao -->|Implemented By| StudentDaoImpl;
+
+    StudentDaoImpl -->|Uses| ConnectionFactory;
+    ConnectionFactory -->|Connects to| Database;
+
+    Database -->|Returns Result| StudentDaoImpl;
+    StudentDaoImpl -->|Returns Status/Data| StudentService;
+    StudentService -->|Returns to| ServletController;
+
+    ServletController -->|Forwards to| display.jsp;
+    ServletController -->|On Error| failed.html;
+    
+---
+
 
