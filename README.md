@@ -1,4 +1,4 @@
-# 🎓 student-admin-portal
+# 🎓 STUDENT_ADMIN_PORTAL 
 
 A Java-based dynamic web application for managing student records — built using Servlets, JSP, and a layered architecture (MVC pattern).
 
